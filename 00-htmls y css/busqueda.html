@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Busqueda</title>
     <link rel="stylesheet" href="busqueda.css">
+    <meta name="description" content="Listado con empleos y filtros para encontrar el trabajo de tus sueños.">
 </head>
 <body>
      <header>
-      <h1>
+      <h1> 
         <svg
           fill="none"
           stroke="currentColor"
@@ -40,27 +41,31 @@
         </div>
   
 
-        <form role="search" class="input">
-             <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="icon icon-tabler icons-tabler-outline icon-tabler-search">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
-            <path d="M21 21l-6 -6" />
-          </svg>
-          <input type="text" 
-          placeholder="Buscar trabajos,empresas o habilidades" 
-          required>
-          
-        </form>
+        <form role="search">
+            <div class="search-bar">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-search">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+              <path d="M21 21l-6 -6" />
+            </svg>
+            <input
+              type="text"
+              placeholder="Buscar empleos por titulos, habilidad o empresa"
+              required />
+            </div>
+            <button type="submit">Buscar</button>
+         
+          </form>
         <section class="selection">
             <select name="" id="">
                 <option value="">Tecnologia</option>

@@ -127,24 +127,26 @@ header div a {
     font-weight: bold;
   }
 }
-.input {
+/* Formulario de Búsqueda */
+.search-bar{
+  background-color: var(--input-bg);
+  padding: .25rem .5rem;
+}
+.search-filters{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-margin-bottom: 20px;
-  width: 50%; /* ocupa todo */
-  gap: 0.5rem; /* espacio entre icono e input */
+  flex-wrap: wrap;
+  margin-top: .5rem;
+}
+form{
+  width: 100%;
+  max-width: 1200px;
+}
+form div{
+  background: none;
+  box-shadow: none;
+  padding: 0;
 }
 
-.input input {
-  flex: 1; /* el input se estira */
-  background-color: var(--input-bg);
-  border: 1px solid var(--primary);
-  border-radius: 0.2rem;
-  color: var(--text-muted);
-  padding: 0.5rem;
-}
 .selection{
   display: flex;
   justify-content: flex-start;
